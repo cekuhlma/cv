@@ -1,0 +1,18 @@
+section,in_resume,title,institution,loc,start,end,description_1,description_2,description_3
+education,TRUE,"M.S. Program Evaluation and Data Analytics",Arizona State University,"Tempe, AZ",2024,2026,Graduate coursework in econometrics, causal inference, and data visualization.,Emphasis on applied program evaluation and policy analysis.,
+education,TRUE,"B.S., Political Science & Geography (Summa Cum Laude)",Arizona State University,"Tempe, AZ",2020,2024,Graduated with 4.0 GPA,Dean’s List; University Honors; strong focus on research methods and data science.,
+
+industry_positions,TRUE,"Store Manager",Starbucks,"Malvern, PA",2016,Present,Lead operations for $2.5M annual revenue store with 25–30 employees.,Hire and onboard 20+ employees per year while ensuring compliance with I-9/E-Verify and labor laws.,Recognized 3x as Store Manager of the Quarter; trainer for new managers and supported multi-store staffing projects.
+industry_positions,TRUE,"Assistant Store Manager",Starbucks,"King of Prussia, PA",2014,2016,Directed daily operations for high-volume location.,Oversaw training, scheduling, and compliance audits.,Promoted to Store Manager role based on performance and leadership.
+industry_positions,FALSE,"Shift Supervisor",Starbucks,"Exton, PA",2011,2014,Supervised baristas and delegated daily operations.,Handled cash management and compliance with company policies.,Served as key support for customer engagement and employee development.
+
+research_positions,TRUE,"Graduate Researcher",Arizona State University,"Tempe, AZ",2024,Present,Conduct econometric analysis of program evaluation datasets.,Develop interactive dashboards in R (Shiny, flexdashboard) for communicating results.,Focus on equity and policy outcomes.
+research_positions,FALSE,"Capstone Project – Bus Ridership Analysis",Arizona State University,"Tempe, AZ",2023,2024,Analyzed bus ridership patterns pre/post-COVID using regression and time-series models.,Visualized results with ggplot2 and sf mapping packages.,Delivered presentation on policy implications for city planning.
+
+teaching_positions,FALSE,"Peer Mentor & Trainer",Starbucks,"Philadelphia Region",2017,2019,Trained new store managers on compliance, hiring, and HR systems.,Facilitated workshops on labor relations and performance management.,Developed onboarding guides adopted across multiple stores.
+
+data_science_writings,TRUE,"Vacant Lot Greening and Crime Study",Personal Project,"Online Portfolio",2025,2025,Built R Markdown and Shiny report analyzing effect of greening interventions on vandalism.,Used difference-in-differences and interrupted time series methods.,Project available on GitHub and LinkedIn.
+data_science_writings,TRUE,"Public Housing and Health Outcomes",Course Lab,"ASU Program Evaluation",2025,2025,Applied instrumental variables regression to estimate health impacts of public housing.,Created reproducible R workflow and formatted results with stargazer.,
+
+about_me_press,TRUE,"LinkedIn Profile","LinkedIn","https://linkedin.com/in/carrie-kuhlman",NA,NA,"Connect for professional updates, portfolio, and resume.",,
+
