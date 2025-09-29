@@ -1,6 +1,6 @@
 ---
 title: "Carrie Kuhlman's Resume"
-author: Carrie Kuhlman
+author: Carrie Kuhlman 
 date: "`r Sys.Date()`"
 output:
   pagedown::html_resume:
