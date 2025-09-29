@@ -1,11 +1,10 @@
 ---
-title: Nick Strayer's Resume"
-author: Nick Strayer
+title: "Carrie Kuhlman's Resume"
+author: Carrie Kuhlman
 date: "`r Sys.Date()`"
 output:
   pagedown::html_resume:
     css: ['css/custom_resume.css', 'css/styles.css', 'resume']
-    # set it to true for a self-contained HTML page but it'll take longer to render
     self_contained: true
 ---
 
@@ -29,7 +28,7 @@ source('parsing_functions.R')
 
 # First let's get the data, filtering to only the items tagged as
 # Resume items
-position_data <- read_csv('positions.csv') %>% 
+position_data <- read_csv('positions.cv') %>% 
   filter(in_resume) %>% 
   mutate(
     # Build some custom sections by collapsing others
@@ -46,36 +45,27 @@ position_data <- read_csv('positions.csv') %>%
 Aside
 ================================================================================
 
-
 ![logo](beta_dist.png){width=100%}
 
 Contact {#contact}
 --------------------------------------------------------------------------------
 
+- <i class="fa fa-envelope"></i> cekuhlma@asu.edu
+- <i class="fa fa-linkedin"></i> linkedin.com/in/carrie-kuhlman/
+- <i class="fa fa-map-marker"></i> Philadelphia, PA
 
-
-- <i class="fa fa-envelope"></i> nick.strayer@gmail.com
-- <i class="fa fa-twitter"></i> NicholasStrayer
-- <i class="fa fa-github"></i> github.com/nstrayer
-- <i class="fa fa-link"></i> [nickstrayer.me](http://nickstrayer.me/)
-- <i class="fa fa-phone"></i> (734) 645-0110
-
-
-
-Language Skills {#skills}
+Skills {#skills}
 --------------------------------------------------------------------------------
 
-
 ```{r}
-skills <- tribble(
-  ~skill,               ~level,
-  "R",                  5,
-  "Javascript (d3.js)", 4.5,
-  "Python",             4,
-  "Bash",               3.5,
-  "SQL",                3,
-  "C++",                3,
-  "AWK",                3
+skills <- tibble::tribble(
+  ~skill,                      ~level,
+  "Program Evaluation (R/DiD/IV)", 4.5,
+  "R (tidyverse/shiny)",       4.5,
+  "Data Visualization",        4.5,
+  "SQL",                       3.5,
+  "Python",                    3,
+  "Project/People Leadership", 5
 )
 build_skill_bars(skills)
 ```
@@ -85,18 +75,17 @@ build_skill_bars(skills)
 Open Source Contributions {#open-source}
 --------------------------------------------------------------------------------
 
-All projects available at `github.com/nstrayer/<name>`
+All projects available at `github.com/cekuhlma`
 
-
-- `shinysense`: R package to use sensor data in Shiny apps
-- `tuftesque`: Hugo theme (behind LiveFreeOrDichotomize.com)
-- `slid3r`: D3 add-on for fully svg slider inputs
+- `montyhall`: R simulation for the Monty Hall problem ([repo](https://github.com/cekuhlma/montyhall))
+- `cekuhlma.github.io`: Personal website ([repo](https://github.com/cekuhlma/cekuhlma.github.io))
+- `cekuhlma.cv`: CV/resume site ([repo](https://github.com/cekuhlma/cekuhlma.cv))
 
 
 More info {#more-info}
 --------------------------------------------------------------------------------
 
-See full CV at nickstrayer.me/cv for more complete list of positions and publications.
+See full CV at carrieKuhlman.me/cv for more complete list of positions and publications.
 
 
 Disclaimer {#disclaimer}
@@ -104,7 +93,7 @@ Disclaimer {#disclaimer}
 
 Made w/ [**pagedown**](https://github.com/rstudio/pagedown). 
 
-Source code: [github.com/nstrayer/cv](https://github.com/nstrayer/cv).
+Source code: [github.com/cekuhlma/cv](https://github.com/cekuhlma/cv).
 
 Last updated on `r Sys.Date()`.
 
@@ -114,14 +103,12 @@ Last updated on `r Sys.Date()`.
 Main
 ================================================================================
 
-Nick Strayer {#title}
+Carrie Kuhlman {#title}
 --------------------------------------------------------------------------------
 
 ```{r}
-intro_text <- "I have made [visualizations viewed by hundreds of thousands of people](https://www.nytimes.com/interactive/2016/08/26/us/college-student-migration.html), [sped up query times for 25 terabytes of data by an average of 4,800 times](https://livefreeordichotomize.com/2019/06/04/using_awk_and_r_to_parse_25tb/), and built [packages for R](https://github.com/nstrayer/shinysense) that let you [do magic](http://nickstrayer.me/dataDayTexas/).
+intro_text <- "Program evaluation & data analytics graduate student with 10+ years of Starbucks leadership. I build reproducible analyses and visual dashboards in R to inform operations, equity, and policy. Seeking roles where I can partner with stakeholders to translate evidence into better decisions."
 
-Currently searching for a data science position that allows me to build tools using visualization and machine learning to help people explore and understand their data. 
-"
 
 
 cat(sanitize_links(intro_text))
