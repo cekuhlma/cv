@@ -51,7 +51,7 @@ Contact {#contact}
 --------------------------------------------------------------------------------
 
 - <i class="fa fa-envelope"></i> cekuhlma@asu.edu
-- <i class="fa fa-linkedin"></i> linkedin.com/in/carrie-kuhlman/
+- <i class="fa fa-linkedin"></i> https://linkedin.com/in/carrie-kuhlman/
 - <i class="fa fa-map-marker"></i> Philadelphia, PA
 
 Skills {#skills}
@@ -85,7 +85,7 @@ All projects available at `github.com/cekuhlma`
 More info {#more-info}
 --------------------------------------------------------------------------------
 
-See full CV at carrieKuhlman.me/cv for more complete list of positions and publications.
+See full CV at https://cekuhlma.github.io/cv/ for more complete list of positions and publications.
 
 
 Disclaimer {#disclaimer}
